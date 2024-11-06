@@ -109,7 +109,7 @@ dotenv.config(); // Load environment variables
 const app = express();
 
 const corsOptions = {
-    origin: 'http://localhost:3000',  // Specify the frontend URL
+    origin: 'https://patient-management-system-apps.vercel.app',  // Specify the frontend URL
     credentials: true,  // Allow credentials such as cookies and authorization headers
 };
 app.use(cors(corsOptions));
